@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Eidos Maple Mono";
+  src: url("./fonts/EidosMapleMono-Regular.woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Eidos Maple Mono";
+  src: url("./fonts/EidosMapleMono-Bold.woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root[data-theme="light"] {
+  --theme-surface: #fbf8f4;
+  --theme-ink: #2b2726;
+  --theme-accent: #a84432;
+  --theme-success: #386b47;
+  --theme-warning: #925922;
+  --theme-danger: #b1433a;
+  --theme-neutral: #596377;
+  --lite-sidebar: #f2ebe4;
+  --sidebar-strong: #eaded4;
+  --surface-hover: #f3e8df;
+  --surface-active: #eeddd2;
+  --surface-selected: #ead0c3;
+  --ink-muted: #675e59;
+  --ink-faint: #766c66;
+  --line: #d1c3b9;
+  --hairline: #e1d6cd;
+  --accent-strong: #8f3324;
+  --accent-contrast: #ffffff;
+  --primary-action-hover: #913929;
+  --focus: #a84432;
+  --control-fill: #fffefd;
+  --control-border: #cdbeb3;
+  --font-ui: Eidos Maple Mono, PingFang SC, Microsoft YaHei, sans-serif;
+  --font-code: Eidos Maple Mono, SFMono-Regular, Menlo, monospace;
+  --font-editorial: Eidos Maple Mono, PingFang SC, Microsoft YaHei, sans-serif;
+  --font-size-ui: 14px;
+  --font-size-code: 13px;
+  --control-radius: 8px;
+}
+
+:root[data-theme="dark"] {
+  --theme-surface: #231e1d;
+  --theme-ink: #f1e8e3;
+  --theme-accent: #ef9a7e;
+  --theme-success: #94ca9a;
+  --theme-warning: #e4bb78;
+  --theme-danger: #ef9a90;
+  --theme-neutral: #b9c3d1;
+  --lite-sidebar: #2b2321;
+  --sidebar-strong: #382b27;
+  --surface-hover: #382a26;
+  --surface-active: #48332c;
+  --surface-selected: #56382f;
+  --ink-muted: #cfbdb4;
+  --ink-faint: #ac968c;
+  --line: #655047;
+  --hairline: #443630;
+  --accent-strong: #f4b29c;
+  --accent-contrast: #281a16;
+  --primary-action-hover: #f4b29c;
+  --focus: #efa38a;
+  --control-fill: #302825;
+  --control-border: #705950;
+  --font-ui: Eidos Maple Mono, PingFang SC, Microsoft YaHei, sans-serif;
+  --font-code: Eidos Maple Mono, SFMono-Regular, Menlo, monospace;
+  --font-editorial: Eidos Maple Mono, PingFang SC, Microsoft YaHei, sans-serif;
+  --font-size-ui: 14px;
+  --font-size-code: 13px;
+  --control-radius: 8px;
+}

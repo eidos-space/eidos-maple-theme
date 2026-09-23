@@ -1,0 +1,18 @@
+{
+  "apiVersion": 1,
+  "kind": "theme",
+  "id": "eidos.maple-theme",
+  "name": "Maple Mono",
+  "version": "0.1.0",
+  "requires": {
+    "pluginApi": "1.6.0"
+  },
+  "icon": {
+    "paths": [
+      "M12 2 9 7 6 5 7 10 3 9 5 13 2 15 9 16 8 21 12 18 16 21 15 16 22 15 19 13 21 9 17 10 18 5 15 7Z"
+    ]
+  },
+  "theme": {
+    "stylesheet": "./theme.css"
+  }
+}
