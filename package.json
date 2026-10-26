@@ -1,13 +1,17 @@
 {
   "name": "@eidos.space/plugin-maple-theme",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "node scripts/plugin-tools.mjs check . --target lite",
-    "pack:plugin": "node scripts/plugin-tools.mjs pack ."
+    "check": "eidos-plugin check . --target lite",
+    "pack:plugin": "eidos-plugin pack ."
   },
   "engines": {
     "node": ">=22.12.0"
+  },
+  "devDependencies": {
+    "@eidos.space/plugin-sdk": "0.9.0",
+    "@eidos.space/plugin-tools": "0.9.0"
   }
 }
