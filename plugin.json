@@ -2,10 +2,10 @@
   "apiVersion": 1,
   "kind": "theme",
   "id": "eidos.maple-theme",
-  "name": "Maple Mono",
-  "version": "0.1.0",
+  "name": "%plugin.name%",
+  "version": "0.2.0",
   "requires": {
-    "pluginApi": "1.6.0"
+    "pluginApi": "3.7.0"
   },
   "icon": {
     "paths": [
@@ -14,5 +14,17 @@
   },
   "theme": {
     "stylesheet": "./theme.css"
+  },
+  "description": "%plugin.description%",
+  "i18n": {
+    "defaultLocale": "en",
+    "messages": {
+      "en": "./locales/en.json",
+      "zh-CN": "./locales/zh-CN.json"
+    },
+    "readme": {
+      "en": "./README.md",
+      "zh-CN": "./README.zh-CN.md"
+    }
   }
 }
